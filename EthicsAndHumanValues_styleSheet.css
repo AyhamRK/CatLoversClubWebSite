@@ -242,3 +242,69 @@ a:visited{
 .col-2 h3{
 margin-top: 20%;  
 }
+
+@media only screen and (max-width: 600px) {
+  nav {
+    float: none;
+  }
+
+  nav ul {
+    text-align: center;
+    padding: 10px;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 0;
+  }
+
+  .group-name,
+  nav {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-text {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container-for-image-and-articls,
+  .about-us-contanier {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .text {
+    padding: 20px;
+  }
+
+  .image {
+    order: -1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    width:100%;
+    padding: 20px 5%;
+    flex-direction: column;
+  }
+
+  .col-1,
+  .col-2,
+  .col-3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+
